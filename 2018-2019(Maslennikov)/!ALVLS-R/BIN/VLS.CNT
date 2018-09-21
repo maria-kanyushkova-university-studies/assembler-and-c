@@ -1,0 +1,91 @@
+:Base Vls.hlp
+:Title Visual Logic Support
+1 Введение
+2 Введение=HIDR_DOC1TYPE
+2 Работа в системном окне схематического представления=info_hmi
+2 Функциональная блок-схема ( FBD )=info_fbd
+2 Функциональная блок-схема ( Sub FBD )=HID_SUBFBD_WINDOW
+1 Опции меню
+2 Меню=vls_menus
+2 Файл=menu_file
+2 Правка=menu_edit
+2 Вид=menu_view
+2 Вставка=menu_insert
+2 Инструмент=menu_tools
+2 Поиск=menu_search
+2 Контроллер=menu_plc
+2 Коммуникации=menu_com
+2 Опции=menu_option
+2 Окно=menu_window
+2 Справка=menu_help
+1 Панели инструментов
+2 Панели инструментов (Tool Bars)=AFX_HIDW_TOOLBAR
+2 Стандартная панель инструментов (Standard Tool Bar)=vls_stdtoolbar
+2 Панель инструмента рисования (Drawing Tool Bar)=AFX_HIDW_DRAWINGTOOLBAR
+2 Инструментальная панель принадлежностей (Accessories Tool Bar)=AFX_HIDW_ACCTOOLBAR
+2 Инструментальная панель контроллера (Controller Tool Bar)=CONTROLLER_TBAR
+2 Инструментальная панель подключения (Wiring Tool Bar)=HID_INSERT_WIRE
+2 Инструментальная панель изображения (Image Tool Bar)=vls_imagetoolbar
+2 Инструментальная панель функции пользователя (UserFunc Tool Bar)=HID_VIEW_USERFUNCTOOLBAR
+1 Функции и Сигналы 
+2 Введение=vls_sigfuncintro
+2 Функции
+3 Функции (Functions)=vls_functions
+3 Стандартные функции (Standard Functions)
+4 Стандартные функции (Standard Functions)=vls_StdFunc
+4 Alternate (Альтернативная)=HID_VLS_FN_ALT_NAME
+4 Boolean (Булево)=HID_VLS_FN_BOOL_NAME
+4 Compare (Сравнтив)=HID_VLS_FN_COMPARE_NAME
+4 Counter (Счетчик)=HID_VLS_FN_COUNTER_NAME
+4 Up/Down Counter (Реверсивный счетчик)=HID_VLS_FN_UDCOUNTER_NAME
+4 Delay (Задержка)=HID_VLS_FN_DELAY_NAME
+4 Flicker (Мерцание)=HID_VLS_FN_FLICKER_NAME
+4 Gain (Коэффициент усилиения)=HID_VLS_FN_GAIN_NAME
+4 One Shot (Однократное исполнение)=HID_VLS_FN_ONESHOT_NAME
+4 Time Switch (Реле времени)=HID_VLS_FN_RTC_NAME
+4 Set/Reset (Установить/Сбросить)=HID_VLS_FN_SETRESET_NAME
+4 Pulse (Импульс)=HID_VLS_FN_PULSE_NAME
+4 Schmitt Trigger (Tриггер Шмидта)=HID_VLS_FN_SCHMITT_NAME
+4 Zone Compare (Сравнение зон)=HID_VLS_FN_ZONECMP_NAME
+4 Display (Отображение)=HID_VLS_FN_DISPLAY_NAME
+4 Hour Meter (Счетчик моточасов)=HID_VLS_FN_RETTIMER_NAME
+4 Delayed Alternate (Альтернативная с задежкой)=HID_VLS_FN_DELAYEDALTERNATE_NAME
+4 Delayed One Shot (Альтернативная с задежкой)=HID_VLS_FN_DELAYEDONESHOT_NAME
+4 Random One Shot (Однократного исполнения произвольной длины)=HID_VLS_FN_RANDOMONESHOT_NAME
+4 Pulse Width Modulation (PWM)(Модуляция ширины импульса)=HID_VLS_FN_PWM_NAME
+4 Speed Detect (Определение скорости)=HID_VLS_FN_SPEED_DETECT_NAME
+4 GSM Short Message (GSM_SMS)(Короткое сообщение GSM)=HID_VLS_FN_GSMSMS_NAME
+4 Multiplication (Умножение)=HID_VLS_FN_MULTIPLICATION_NAME
+4 Division (Деление)=HID_VLS_FN_DIVISION_NAME
+4 Addition (Сложение)=HID_VLS_FN_ADDITION_NAME
+4 Subtraction (Вычитание)=HID_VLS_FN_SUBTRACTION_NAME
+4 Calculation (Вычисление)=HID_VLS_FN_CALCULATION_NAME
+4 Shift (Сдвиг)=HID_VLS_FN_SHIFT_NAME
+4 Analog Output (Аналоговый выход)=HID_VLS_FN_ANALOGOUTPUT_NAME
+4 PID (ПИД-регулятор)=HID_VLS_FN_PID_NAME
+4 SMR (ПИД)=HID_VLS_FN_SMR_NAME
+4 CD (ОВ)=HID_VLS_FN_CD_NAME
+3 Логические функции (Logic Functions)
+4 Логические Функции (Logic Functions)=logic_func
+4 Boolean AND (Булевое И)=HID_VLS_FN_BOOL_AND_NAME
+4 Boolean OR (Булевое ИЛИ)=HID_VLS_FN_BOOL_OR_NAME
+4 Boolean NOT (Булевое НЕ)=HID_VLS_FN_BOOL_NOT_NAME
+4 Boolean XOR (Булевое исключающее ИЛИ)=HID_VLS_FN_BOOL_XOR_NAME
+4 Boolean NAND (Булевое НЕ-И)=HID_VLS_FN_BOOL_NAND_NAME
+4 Boolean NOR (Булевое НЕ-ИЛИ)=HID_VLS_FN_BOOL_NOR_NAME
+2 Сигналы
+3 Сигналы (Signals)=HID_VLS_SIGNAL
+3 Входные сигналы (Input Signals)=vls_ipsignals
+3 Выходные сигналы (Output Signals)=vls_opsignals
+1 Режимы работы
+2 Введение=vls_modes
+2 Режим программирования (Program Mode)=vls_programmode
+2 Режим моделирования (Simulation Mode)=vls_SimMode
+2 Режим мониторинга (Monitoring Mode)=vls_MonMode
+1 Специальные возможности
+2 Специальные возможности (Special Features)=vls_specialfea
+2 Автонабор номера (AutoDialing)=HID_AUTODIALING
+2 Перетащить и опустить (Drag and Drop)=vls_dragdrop
+2 Перемещение компонентов с помощью клавиш курсора (Move Components with arrow Key)=vls_movarrow
+1 Поддержка
+2 Помощь предоставляемая вместе с приложением (Help supported with the application)=vls_helpsupport

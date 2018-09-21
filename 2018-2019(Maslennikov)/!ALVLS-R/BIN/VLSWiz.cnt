@@ -1,0 +1,7 @@
+:Base VLSWiz>Guidance
+:Title FBD Auto Wizard
+1 FBD Auto Wizard
+2 FBD Auto Wizard=HIDD_VLSWIZARD@VLSWiz.HLP>Guidance
+2 Select Target=HID_WIZ_PAGE1@VLSWiz.hlp>Guidance
+2 Select Charactor=HID_WIZ_PAGE2@VLSWiz.hlp>Guidance
+2 Select Function=HID_WIZ_PAGE3@VLSWiz.hlp>Guidance

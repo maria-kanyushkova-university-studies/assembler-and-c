@@ -1,0 +1,465 @@
+[CONT_ON]
+File = Avi\Continue2.avi
+Frames = 1
+OnNextSec = OnNextCont
+OffNextSec = OffNextCont
+OutputSec = OutputCont
+
+[OnNextCont]
+0 = 0
+[OffNextCont]
+0 = 0
+[OutputCont]
+0 = 1
+
+[SETRESET]
+File = Avi\SetReset.avi
+Frames = 4
+Type = 1
+OnNextSec = OnNextSetRst
+OnNextSec2 = OnNextSetRst2
+OffNextSec = OffNextSetRst
+OffNextSec2 = OffNextSetRst2
+OutputSec = OutputSetRst
+
+[OnNextSetRst]
+0 = 1
+1 = 1
+2 = 1
+3 = 1
+
+[OnNextSetRst2]
+0 = 2
+1 = 2
+2 = 2
+3 = 2
+[OffNetSetRst]
+0 = 0
+1 = 0
+2 = 0
+3 = 0
+
+[OffNextSetRst2]
+0 = 3
+1 = 3
+2 = 3
+3 = 3
+
+[OutputSetRst]
+0 = 0
+1 = 1
+2 = 0
+3 = 0
+
+[TGL]
+File = Avi\Tgl.avi
+Frames = 2
+Type = 2
+OnNextSec = OnNextTGL
+OffNextSec = OffNextTGL
+OutputSec = TGLOutput
+
+[OnNextTGL]
+0 = 1
+1 = 1
+
+[OffNextTGL]
+0 = 0
+1 = 0
+
+[TGLOutput]
+0 = 0
+1 = 1
+
+[COMPARE]
+File = Avi\Compare.avi
+Frames = 3
+Type = 3
+OnNextSec = OnNextCompare
+OnNextSec2 = OnNextCompare2
+OffNextSec = OffNextCompare
+OffNextSec2 = OffNextCompare2
+OutputSec = OutputCompare
+
+[OnNextCompare]
+0 = 1
+1 = 1
+2 = 2
+
+[OffNextCompare]
+0 = 0
+1 = 0
+2 = 0
+
+[OnNextCompare2]
+0 = 2
+1 = 2
+2 = 1
+
+[OffNextCompare2]
+0 = 0
+1 = 0
+2 = 0
+
+[OutputCompare]
+0 = 0
+1 = 0
+2 = 1
+
+[COUNTER]
+File = Avi\Counter.avi
+Frames = 21
+OnNextSec = OnNextCounter
+OffNextSec = OffNextCounter
+OutputSec = OutputCounter
+
+[OnNextCounter]
+ 0 =  1
+ 1 =  1
+ 2 =  3
+ 3 =  3
+ 4 =  5
+ 5 =  5
+ 6 =  7
+ 7 =  7
+ 8 =  9
+ 9 =  9
+10 = 11
+11 = 11
+12 = 13
+13 = 13
+14 = 15
+15 = 15
+16 = 17
+17 = 17
+18 = 19
+19 = 19
+20 = 19
+
+[OffNextCounter]
+ 0 =  0
+ 1 =  2
+ 2 =  2
+ 3 =  4
+ 4 =  4
+ 5 =  6
+ 6 =  6
+ 7 =  8
+ 8 =  8
+ 9 = 10
+10 = 10
+11 = 12
+12 = 12
+13 = 14
+14 = 14
+15 = 16
+16 = 16
+17 = 18
+18 = 18
+19 = 20
+20 = 20
+
+[OutputCounter]
+ 0 = 0
+ 1 = 0
+ 2 = 0
+ 3 = 0
+ 4 = 0
+ 5 = 0
+ 6 = 0
+ 7 = 0
+ 8 = 0
+ 9 = 0
+10 = 0
+11 = 0
+12 = 0
+13 = 0
+14 = 0
+15 = 0
+16 = 0
+17 = 0
+18 = 0
+19 = 1
+20 = 1
+
+[DELAY]
+File = Avi\Delay.avi
+Frames = 20
+OnNextSec = OnNextDelay
+OffNextSec = OffNextDelay
+OutputSec = OutputDelay
+
+[OnNextDelay]
+ 0 =  1
+ 1 =  2
+ 2 =  3
+ 3 =  4
+ 4 =  5
+ 5 =  6
+ 6 =  6
+ 7 = 19
+ 8 = 19
+ 9 = 19
+10 = 19
+11 = 19
+12 = 19
+13 = 19
+14 = 19
+15 = 19
+16 = 19
+17 = 18
+18 =  1
+19 = 19
+
+[OffNextDelay]
+ 0 =  0
+ 1 =  0
+ 2 =  0
+ 3 =  0
+ 4 =  0
+ 5 =  0
+ 6 =  7
+ 7 =  8
+ 8 =  9
+ 9 = 10
+10 = 11
+11 = 12
+12 = 13
+13 = 14
+14 = 15
+15 = 16
+16 = 17
+17 = 17
+18 = 18
+19 =  9
+
+[OutputDelay]
+ 0 = 0
+ 1 = 0
+ 2 = 0
+ 3 = 0
+ 4 = 0
+ 5 = 0
+ 6 = 1
+ 7 = 1
+ 8 = 1
+ 9 = 1
+10 = 1
+11 = 1
+12 = 1
+13 = 1
+14 = 1
+15 = 1
+16 = 1
+17 = 0
+18 = 0
+19 = 1
+
+[FLICKER]
+File = Avi\Flicker.avi
+Frames = 3
+OnNextSec = OnNextFlicker
+OffNextSec = OffNextFlicker
+OutputSec = OutputFlicker
+
+[OnNextFlicker]
+0 = 1
+1 = 2
+2 = 1
+[OffNextFlicker]
+0 = 0
+1 = 0
+2 = 0
+
+[OutputFlicker]
+0 = 0
+1 = 1
+2 = 0
+
+[LAMP]
+File = Avi\Lamp.avi
+Frames = 2
+OnNextSec = OnNextLamp
+OffNextSec = OffNextLamp
+
+[OnNextLamp]
+0 = 1
+1 = 1
+
+[OffNextLamp]
+0 = 0
+1 = 0
+
+[ONESHOT]
+File = Avi\OneShot.avi
+Frames = 22
+OnNextSec = OnNextOneShot
+OffNextSec = OffNextOneShot
+OutputSec = OutputOneShot
+
+[OnNextOneShot]
+ 0 =  1
+ 1 =  2
+ 2 =  3
+ 3 =  4
+ 4 =  5
+ 5 =  6
+ 6 =  7
+ 7 =  8
+ 8 =  9
+ 9 = 10
+10 = 11
+11 = 11
+12 =  3
+13 =  4
+14 =  5
+15 =  6
+16 =  7
+17 =  8
+18 =  9
+19 = 10
+20 = 11
+21 =  1
+
+[OffNextOneShot]
+ 0 =  0
+ 1 = 12
+ 2 = 13
+ 3 = 14
+ 4 = 15
+ 5 = 16
+ 6 = 17
+ 7 = 18
+ 8 = 19
+ 9 = 20
+10 = 21
+11 = 21
+12 = 13
+13 = 14
+14 = 15
+15 = 16
+16 = 17
+17 = 18
+18 = 19
+19 = 20
+20 = 21
+21 = 21
+
+[OutputOneShot]
+ 0 = 0
+ 1 = 1
+ 2 = 1
+ 3 = 1
+ 4 = 1
+ 5 = 1
+ 6 = 1
+ 7 = 1
+ 8 = 1
+ 9 = 1
+10 = 1
+11 = 0
+12 = 1
+13 = 1
+14 = 1
+15 = 1
+16 = 1
+17 = 1
+18 = 1
+19 = 1
+20 = 1
+21 = 0
+
+[SWITCH]
+File = Avi\Pulse.avi
+Frames = 9
+OnNextSec = OnNextSwitch
+OffNextSec = OffNextSwitch
+OutputSec = OutputSwitch
+
+[OnNextSwitch]
+ 0 = 1
+ 1 = 2
+ 2 = 3
+ 3 = 4
+ 4 = 5
+ 5 = 5
+ 6 = 1
+ 7 = 1
+ 8 = 1
+
+[OffNextSwitch]
+ 0 = 0
+ 1 = 6
+ 2 = 7
+ 3 = 8
+ 4 = 0
+ 5 = 0
+ 6 = 7
+ 7 = 8
+ 8 = 0
+
+[OutputSwitch]
+ 0 = 0
+ 1 = 1
+ 2 = 0
+ 3 = 0
+ 4 = 0
+ 5 = 0
+ 6 = 0
+ 7 = 0
+ 8 = 0
+
+[ALT]
+File = Avi\Alt.avi
+Frames = 13
+OnNextSec = OnNextAlt
+OffNextSec = OffNextAlt
+OutputSec = OutputAlt
+
+[OnNextAlt]
+ 0 =  1
+ 1 =  2
+ 2 =  3
+ 3 =  4
+ 4 =  4
+ 5 =  6
+ 6 =  7
+ 7 =  8
+ 8 =  9
+ 9 =  9
+10 =  6
+11 =  6
+12 =  6
+13 =  6
+
+[OffNextAlt]
+ 0 =  0
+ 1 =  9
+ 2 = 10
+ 3 =  5
+ 4 =  5
+ 5 =  5
+ 6 = 12
+ 7 = 13
+ 8 =  0
+ 9 =  0
+10 = 11
+11 =  5
+12 = 13
+13 =  0
+
+[OutputAlt]
+ 0 = 0
+ 1 = 0
+ 2 = 0
+ 3 = 0
+ 4 = 1
+ 5 = 1
+ 6 = 1
+ 7 = 1
+ 8 = 1
+ 9 = 0
+10 = 0
+11 = 0
+12 = 1
+13 = 1
