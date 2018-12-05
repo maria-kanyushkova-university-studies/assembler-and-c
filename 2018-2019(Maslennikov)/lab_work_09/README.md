@@ -12,13 +12,21 @@
 Машинные коды используемых команд:
 
 00 NOP
+
 06 MVI B
+
 21 LXI H
+
 3E MVI A
+
 76 HLT
+
 80 ADD B
+
 86 ADD M
+
 87 ADD A
+
 C3 JMP
 
 ___
